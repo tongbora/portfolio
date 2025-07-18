@@ -3,13 +3,10 @@ import Image from "next/image";
 import { TypingAnimation } from "@/components/magicui/typing-animation";
 import Link from "next/link";
 
-
-
 export default function Footer() {
   return (
     <div className="w-full " id="contact">
       <div className="relative w-full h-[50vh] sm:h-[60vh]">
-        {/* Background Image */}
         <Image
           src="/image/140.jpg"
           alt="background"
@@ -17,16 +14,13 @@ export default function Footer() {
           className="object-cover w-full h-full"
         />
 
-        {/* Overlay Content - Positioned relative to this container */}
         <div className="absolute inset-0 px-6 sm:px-3 md:px-10 xl:px-40 pt-20 xl:pt-30 sm:pt-25 font-geist-mono z-10">
           <div className="flex flex-col sm:gap-16 gap-6 text-white">
             <TypingAnimation className="xl:text-4xl md:text-3xl text-2xl font-light drop-shadow-md">
               Get In Touch_
             </TypingAnimation>
 
-            <div
-              className={`flex flex-col sm:gap-4 gap-3`}
-            >
+            <div className={`flex flex-col sm:gap-4 gap-3`}>
               <p className="font-extrabold">
                 PHONE:{" "}
                 <Link href="tel:+855969194339" target="_blank">
@@ -34,7 +28,10 @@ export default function Footer() {
                 </Link>
               </p>
               <p className="font-extrabold">
-                FACEBOOK: <span className="font-extralight">Tøng Borā</span>
+                FACEBOOK:
+                <Link href="https://www.facebook.com/bun.leap.9849/">
+                  <span className="font-extralight">Tøng Borā</span>
+                </Link>
               </p>
               <p className="font-extrabold">
                 EMAIL:{" "}

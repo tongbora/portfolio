@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className="flex items-center xl:py-16 md:py-14 sm:py-10 py-8 gap-4">
             <Link
-              href={"https://www.facebook.com/bun.leap.9849/"}
+              href="https://www.facebook.com/bun.leap.9849/"
               target="_blank"
               className="inline-block w-6 h-6 ml-2"
             >
