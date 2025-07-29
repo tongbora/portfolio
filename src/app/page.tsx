@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className="w-full px-6 sm:px-3 md:px-10 xl:px-40 font-geist-mono xl:pt-20 sm:pt-15 pt-10">
         <div className="absolute sm:top-30 top-25">
-          <div className="flex flex-col  justify-center gap-4">
+          <div className="flex flex-col  justify-center gap-4 text-white">
             <h1 className="xl:text-5xl md:text-4xl text-3xl font-extrabold">
               Tong Bora
             </h1>
