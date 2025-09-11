@@ -27,6 +27,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-M44KNYMPEL"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-M44KNYMPEL');
+          `}
+        </Script>
+
         {/* Register the OneSignal service worker */}
         <script
           dangerouslySetInnerHTML={{
