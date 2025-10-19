@@ -21,19 +21,19 @@ export default function Footer() {
             </TypingAnimation>
 
             <div className={`flex flex-col sm:gap-4 gap-3`}>
-              <p className="font-extrabold">
+              <p className="font-extrabold xl:text-lg md:text-md text-sm">
                 PHONE:{" "}
                 <Link href="tel:+855969194339" target="_blank">
                   <span className="font-extralight">+855 969 194 339</span>
                 </Link>
               </p>
-              <p className="font-extrabold">
+              <p className="font-extrabold xl:text-lg md:text-md text-sm">
                 FACEBOOK:
-                <Link href="https://www.facebook.com/bun.leap.9849/">
+                <Link href="https://www.facebook.com/tongboraa" target="_blank">
                   <span className="font-extralight">Tøng Borā</span>
                 </Link>
               </p>
-              <p className="font-extrabold">
+              <p className="font-extrabold xl:text-lg md:text-md text-sm">
                 EMAIL:{" "}
                 <Link href="mailto:tongbora.official@gmail.com" target="_blank">
                   <span className="font-extralight">

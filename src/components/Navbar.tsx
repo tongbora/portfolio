@@ -22,8 +22,8 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-          scrolled ? "bg-white/95 z-30 backdrop-blur-sm shadow-lg" : "bg-transparent"
+        className={`fixed top-0 left-0 w-full z-[60] transition-all duration-300 ${
+          scrolled ? "bg-white/95 backdrop-blur-sm shadow-lg" : "bg-transparent"
         } px-4 sm:px-6 md:px-10 xl:px-40 sm:py-6 py-3`}
       >
         <div className="flex items-center justify-between">

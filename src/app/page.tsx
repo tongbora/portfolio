@@ -34,11 +34,11 @@ export default function Home() {
               Tong Bora
             </h1>
             <p className="text-md font-extralight xl:pr-140 md:pr-70 pr-4 leading-6 sm:leading-8 ">
-              Computer Science Student at{" "}
+              Computer Science at{" "}
               <Link href={"https://www.ppiu.edu.kh/public/"}>
                 <span className="hover:underline">PPIU</span>{" "}
               </Link>
-              | Web Full Stack Student at{" "}
+              | Web Full Stack Development at{" "}
               <Link href={"https://www.cstad.edu.kh/"}>
                 <span className="hover:underline">ISTAD</span>{" "}
               </Link>
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
           <div className="flex items-center xl:py-16 md:py-14 sm:py-10 py-8 gap-4">
             <Link
-              href="https://www.facebook.com/bun.leap.9849/"
+              href="https://www.facebook.com/tongboraa"
               target="_blank"
               className="inline-block w-6 h-6 ml-2"
             >
@@ -66,7 +66,7 @@ export default function Home() {
               />
             </Link>
             <Link
-              href={"https://www.instagram.com/its__biggboss/"}
+              href={"https://www.instagram.com/tongboraa/"}
               target="_blank"
               className="inline-block w-6 h-6  ml-2"
             >
@@ -108,7 +108,7 @@ export default function Home() {
             Projects
           </p>
           <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200">
-            <li className="relative -ms-1.5 flex items-start gap-4">
+            {/* <li className="relative -ms-1.5 flex items-start gap-4">
               <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
 
               <div className="-mt-2 flex flex-col gap-3">
@@ -132,6 +132,34 @@ export default function Home() {
                   showcases dynamic routing, API data fetching, and a clean,
                   component-based frontend structure using modern web
                   technologies.
+                </p>
+              </div>
+            </li> */}
+
+            <li className="relative -ms-1.5 flex items-start gap-4">
+              <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
+
+              <div className="-mt-2 flex flex-col gap-3">
+                <Link
+                  href="https://www.exstad.tech/"
+                  target="_blank"
+                  className="text-lg font-bold text-[#4D55CC]"
+                >
+                  exSTAD
+                </Link>
+                <time className="text-xs/none font-medium text-gray-700">
+                  2025
+                </time>
+                <p
+                  className={`${poppins.className} mt-0.5 leading-8 text-md text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
+                >
+                  exSTAD is an innovative learning management system solution to
+                  facilitate course management and educational content delivery
+                  to scholarship and short course programs. exSTAD key features
+                  include the ability to create and organize training program,
+                  centralize course materials, manage user roles and
+                  enrollments, track learner progress and generate detailed
+                  reports.
                 </p>
               </div>
             </li>
@@ -169,7 +197,7 @@ export default function Home() {
 
               <div className="-mt-2 flex flex-col gap-3">
                 <Link
-                  href="https://fluentflow.live/"
+                  href="https://fluentflow.oudom.dev/"
                   target="_blank"
                   className="text-lg font-bold text-[#4D55CC]"
                 >
