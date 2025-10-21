@@ -20,7 +20,7 @@ export default function Home() {
     <div>
       <div className="relative z-[-1] ">
         <Image
-          src="/image/bg2.jpg"
+          src="/image/bg10.png"
           alt="background"
           width={3000}
           height={800}
@@ -137,13 +137,13 @@ export default function Home() {
             </li> */}
 
             <li className="relative -ms-1.5 flex items-start gap-4">
-              <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
+              <span className="size-3 shrink-0 rounded-full bg-primary"></span>
 
               <div className="-mt-2 flex flex-col gap-3">
                 <Link
                   href="https://www.exstad.tech/"
                   target="_blank"
-                  className="text-lg font-bold text-[#4D55CC]"
+                  className="text-lg font-bold text-primary"
                 >
                   exSTAD
                 </Link>
@@ -165,13 +165,13 @@ export default function Home() {
             </li>
 
             <li className="relative -ms-1.5 flex items-start gap-4">
-              <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
+              <span className="size-3 shrink-0 rounded-full bg-primary"></span>
 
               <div className="-mt-2 flex flex-col gap-3">
                 <Link
                   href="https://github.com/tongbora/MiniProject-JDBC"
                   target="_blank"
-                  className="text-lg font-bold text-[#4D55CC]"
+                  className="text-lg font-bold text-primary"
                 >
                   Product Management System
                 </Link>
@@ -193,13 +193,13 @@ export default function Home() {
             </li>
 
             <li className="relative -ms-1.5 flex items-start gap-4">
-              <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
+              <span className="size-3 shrink-0 rounded-full bg-primary"></span>
 
               <div className="-mt-2 flex flex-col gap-3">
                 <Link
                   href="https://fluentflow.oudom.dev/"
                   target="_blank"
-                  className="text-lg font-bold text-[#4D55CC]"
+                  className="text-lg font-bold text-primary"
                 >
                   Fluent Flow
                 </Link>

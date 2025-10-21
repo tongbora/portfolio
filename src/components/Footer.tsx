@@ -5,16 +5,16 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="w-full " id="contact">
-      <div className="relative w-full h-[50vh] sm:h-[60vh]">
+    <div className="w-full relative" id="contact">
+      <div className=" w-full h-[40vh] sm:h-[50vh]">
         <Image
-          src="/image/140.jpg"
+          src="/image/bg13.png"
           alt="background"
           fill
           className="object-cover w-full h-full"
         />
 
-        <div className="absolute inset-0 px-6 sm:px-3 md:px-10 xl:px-40 pt-20 xl:pt-30 sm:pt-25 font-geist-mono z-10">
+        <div className="absolute -top-10 inset-0 px-6 sm:px-3 md:px-10 xl:px-40 pt-20 xl:pt-30 sm:pt-25 font-geist-mono z-10">
           <div className="flex flex-col sm:gap-16 gap-6 text-white">
             <TypingAnimation className="xl:text-4xl md:text-3xl text-2xl font-light drop-shadow-md">
               Get In Touch_

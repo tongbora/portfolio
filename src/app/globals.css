@@ -3,11 +3,13 @@
 :root {
   --background: #f4f6ff;
   --foreground: #171717;
+  --primary: #2d2cb0;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
   --font-roboto-mono: var(--font-roboto-mono);
   --font-roboto: var(--font-roboto);
 }
