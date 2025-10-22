@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="w-full relative" id="contact">
-      <div className=" w-full h-[40vh] sm:h-[50vh]">
+      <div className=" w-full h-[45vh] sm:h-[50vh]">
         <Image
           src="/image/bg13.png"
           alt="background"
