@@ -1,0 +1,83 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "refresh-lockfile",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"next@15.3.6",
+				"eslint-config-next@15.3.6"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "clean-and-upgrade-next",
+			"type": "shell",
+			"command": "rm",
+			"args": [
+				"-rf",
+				"node_modules/next",
+				"node_modules/eslint-config-next",
+				"node_modules/.next-*",
+				"&&",
+				"npm",
+				"install",
+				"next@15.3.6",
+				"eslint-config-next@15.3.6"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "remove-node-modules",
+			"type": "shell",
+			"command": "python3",
+			"args": [
+				"-c",
+				"import shutil; shutil.rmtree('node_modules', ignore_errors=True); print('removed')"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "remove-node-modules-2",
+			"type": "shell",
+			"command": "python3",
+			"args": [
+				"-c",
+				"import shutil; shutil.rmtree(\"node_modules\", ignore_errors=True); print(\"removed\")"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "npm-install-clean",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "upgrade-next-15-5-9",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"install",
+				"next@15.5.9",
+				"eslint-config-next@15.5.9"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "verify-build-after-next-upgrade",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"build"
+			],
+			"isBackground": false
+		}
+	]
+}
