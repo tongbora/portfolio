@@ -73,7 +73,7 @@ export default function Education() {
               Phnom Penh International University (PPIU)
             </Link>
             <p className="text-sm font-medium text-gray-700">
-              Bachelor's Degree, Computer Science
+              Bachelor&apos;s Degree, Computer Science
             </p>
             <time className="text-xs/none font-medium text-gray-700">
               2024 - Present
@@ -81,7 +81,7 @@ export default function Education() {
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
-              I am currently pursuing a Bachelor's degree in Computer Science at
+              I am currently pursuing a Bachelor&apos;s degree in Computer Science at
               Phnom Penh International University (PPIU), where I am building a
               strong foundation in programming, algorithms, and software
               engineering. Through coursework and hands-on projects, I continue
