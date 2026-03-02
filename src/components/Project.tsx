@@ -62,7 +62,7 @@ export default function Projects() {
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
               A Spring Boot project demonstrating how to integrate with the
-              Bakong Open API and KHQR SDK — Cambodia's official QR payment
+              Bakong Open API and KHQR SDK — Cambodia&apos;s official QR payment
               system developed by the National Bank of Cambodia (NBC). This
               project covers generating KHQR payment QR codes, rendering
               scannable QR images, and verifying transactions using the Bakong
