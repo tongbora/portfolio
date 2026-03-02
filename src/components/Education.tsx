@@ -37,26 +37,25 @@ export default function Education() {
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
-              - Spring Boot Microservices Architecture: Learned key
-              microservices architecture and design patterns such as API
-              Gateway, Service Discovery, Config Server, Circuit Breaker, and
-              Event-Driven communication, with supporting observability
-              practices using Grafana, Loki, Alloy, Spring Actuator,
-              Micrometer, Prometheus, and OpenTelemetry.
+              • Spring Microservices Architecture: Studied core
+              microservices patterns, including API Gateway, Service
+              Discovery, Config Server, Circuit Breaker, and event-driven
+              communication, with observability practices using Grafana, Loki,
+              Alloy, Spring Actuator, Micrometer, Prometheus, and
+              OpenTelemetry.
             </p>
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
-              - Full-Stack Web Development: Learned to build end-to-end
-              applications using Spring Boot, React.js, Next.js, Docker,
-              PostgreSQL, and Keycloak.
+              • Full-Stack Web Development: Built end-to-end applications
+              using Spring Boot, React.js, Next.js, Docker, PostgreSQL, and
+              Keycloak.
             </p>
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
-              - Web Development Foundations: Learned core web development
-              concepts and fundamentals, including HTML, CSS, Tailwind CSS,
-              React.js, and Java.
+              • Web Development Foundations: Developed strong fundamentals in
+              HTML, CSS, Tailwind CSS, React.js, and Java.
             </p>
           </div>
         </li>

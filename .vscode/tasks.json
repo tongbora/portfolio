@@ -78,6 +78,16 @@
 				"build"
 			],
 			"isBackground": false
+		},
+		{
+			"label": "check-installed-next-version",
+			"type": "shell",
+			"command": "node",
+			"args": [
+				"-p",
+				"require(\"next/package.json\").version"
+			],
+			"isBackground": false
 		}
 	]
 }
