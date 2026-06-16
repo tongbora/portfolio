@@ -17,6 +17,33 @@ export default function Projects() {
         Projects
       </p>
       <ol className="relative space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200">
+        <li className="relative -ms-1.5 flex items-start gap-4">
+          <span className="size-3 shrink-0 rounded-full bg-primary"></span>
+
+          <div className="-mt-2 flex flex-col gap-3">
+            <Link
+              href="https://app.istad.co/"
+              target="_blank"
+              className="text-lg font-bold text-primary"
+            >
+              ISTAD Insight
+            </Link>
+            <time className="text-xs/none font-medium text-gray-700">2026</time>
+            <p
+              className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
+            >
+              ISTAD Insight is a web platform for managing and accessing ISTAD
+              learning services through a modern, user-friendly interface. The
+              system centralizes key academic and training workflows, including
+              program information, course resources, announcements, and learner
+              activities, so users can easily find what they need in one place.
+              It is designed to improve communication, reduce manual processes,
+              and provide a smoother digital experience for both students and
+              staff across daily learning operations.
+            </p>
+          </div>
+        </li>
+
         {/* <li className="relative -ms-1.5 flex items-start gap-4">
               <span className="size-3 shrink-0 rounded-full bg-[#4D55CC]"></span>
 

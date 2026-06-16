@@ -3,9 +3,9 @@ import { TypingAnimation } from "@/components/magicui/typing-animation";
 import { Poppins } from "next/font/google";
 import Image from "next/image";
 import {
-  faFacebook,
   faGithub,
-  faInstagram,
+  faTelegram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Projects from "@/components/Project";
@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       <div className="relative z-[-1] ">
         <Image
-          src="/image/bg10.png"
+          src="/image/bg9.png"
           alt="background"
           width={3000}
           height={800}
@@ -37,23 +37,23 @@ export default function Home() {
             </h1>
             <p className="text-md font-extralight xl:pr-140 md:pr-70 pr-4 leading-6 sm:leading-8 ">
               Computer Science at{" "}
-              <Link href={"https://www.ppiu.edu.kh/public/"}>
+              <Link href={"https://www.ppiu.edu.kh/public/"} target="_blank">
                 <span className="hover:underline">PPIU</span>{" "}
               </Link>
               | Spring Microservices at{" "}
-              <Link href={"https://www.cstad.edu.kh/"}>
+              <Link href={"https://istad.co/"} target="_blank">
                 <span className="hover:underline">ISTAD</span>{" "}
               </Link>
             </p>
           </div>
           <div className="flex items-center xl:py-16 md:py-14 sm:py-10 py-8 gap-4">
             <Link
-              href="https://www.facebook.com/tongboraa"
+              href="https://www.linkedin.com/in/tongbora/"
               target="_blank"
               className="inline-block w-6 h-6 ml-2"
             >
               <FontAwesomeIcon
-                icon={faFacebook}
+                icon={faLinkedin}
                 className="text-gray-100 hover:text-gray-300"
               />
             </Link>
@@ -68,12 +68,12 @@ export default function Home() {
               />
             </Link>
             <Link
-              href={"https://www.instagram.com/tongboraa/"}
+              href={"https://t.me/tongboraa"}
               target="_blank"
               className="inline-block w-6 h-6  ml-2"
             >
               <FontAwesomeIcon
-                icon={faInstagram}
+                icon={faTelegram}
                 className="text-gray-100 hover:text-gray-300"
               />
             </Link>
@@ -92,17 +92,16 @@ export default function Home() {
           <p
             className={`text-neutral-700 ${poppins.className} leading-8 sm:leading-10 xl:text-lg md:text-base text-md  sm:pr-50 pr-0  sm:text-justify text-left`}
           >
-            I am a dedicated computer science student at PPIU, 
-            passionate about technology and problem-solving. 
-            I have completed Full Stack Web Development at ISTAD, 
-            gaining hands-on experience in both frontend and backend 
-            technologies. Currently, I am expanding my expertise by 
-            learning Spring microservices, diving deeper into building 
-            scalable and distributed systems. I am constantly exploring 
-            new tools and frameworks to create modern, responsive, 
-            and efficient web applications. With a strong interest 
-            in software development and a commitment to continuous 
-            learning, I am eager to contribute to real-world projects and grow as a developer.
+            I am a dedicated computer science student at PPIU, passionate about
+            technology and problem-solving. I have completed Full Stack Web
+            Development at ISTAD, gaining hands-on experience in both frontend
+            and backend technologies. I have also completed Spring
+            Microservices at ISTAD, where I deepened my skills in building
+            scalable and distributed systems. I am constantly exploring new
+            tools and frameworks to create modern, responsive, and efficient web
+            applications. With a strong interest in software development and a
+            commitment to continuous learning, I am eager to contribute to
+            real-world projects and grow as a developer.
           </p>
         </div>
         <Projects />

@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <div className="w-full relative" id="contact">
-      <div className="w-full h-[36vh] md:h-[40vh] xl:h-[44vh]">
+      <div className="w-full h-[30vh] md:h-[34vh] xl:h-[38vh]">
         <Image
           src="/image/bg13.png"
           alt="background"
@@ -28,9 +28,9 @@ export default function Footer() {
                 </Link>
               </p>
               <p className="font-extrabold text-sm sm:text-base xl:text-lg">
-                FACEBOOK:{" "}
-                <Link href="https://www.facebook.com/tongboraa" target="_blank">
-                  <span className="font-extralight">Tøng Borā</span>
+                LINKEDIN:{" "}
+                <Link href="https://www.linkedin.com/in/tongbora/" target="_blank">
+                  <span className="font-extralight">Tong Bora</span>
                 </Link>
               </p>
               <p className="font-extrabold text-sm sm:text-base xl:text-lg">

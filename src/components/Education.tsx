@@ -22,7 +22,7 @@ export default function Education() {
 
           <div className="-mt-2 flex flex-col gap-3">
             <Link
-              href="https://github.com/tongbora/MiniProject-JDBC"
+              href="https://istad.co/"
               target="_blank"
               className="text-lg font-bold text-primary"
             >
@@ -37,12 +37,13 @@ export default function Education() {
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
             >
-              • Spring Microservices Architecture: Studied core
-              microservices patterns, including API Gateway, Service
-              Discovery, Config Server, Circuit Breaker, and event-driven
-              communication, with observability practices using Grafana, Loki,
-              Alloy, Spring Actuator, Micrometer, Prometheus, and
-              OpenTelemetry.
+              • Spring Microservices Architecture: Focused on designing
+              event-driven systems with Kafka for asynchronous communication,
+              message streaming, and decoupled service collaboration, alongside
+              core patterns such as API Gateway, Service Discovery, Config
+              Server, and Circuit Breaker. Applied observability practices
+              using Grafana, Loki, Alloy, Spring Actuator, Micrometer,
+              Prometheus, and OpenTelemetry.
             </p>
             <p
               className={`${poppins.className} mt-0.5 text-md leading-8 text-gray-700 sm:pr-50 pr-0 sm:text-justify text-start`}
