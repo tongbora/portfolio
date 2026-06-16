@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import Script from "next/script"; // Import the Script component
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import NetworkStatusGate from "@/components/NetworkStatusGate";
 // import Script from "next/script";
 
@@ -73,11 +71,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${robotoMono.className}  min-h-screen`}>
-        <NetworkStatusGate>
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </NetworkStatusGate>
+        <NetworkStatusGate>{children}</NetworkStatusGate>
       </body>
     </html>
   );
