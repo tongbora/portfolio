@@ -5,17 +5,18 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="w-full relative" id="contact">
-      <div className="w-full h-[30vh] md:h-[34vh] xl:h-[38vh]">
+    <footer className="w-full" id="contact">
+      <div className="relative w-full overflow-hidden">
         <Image
           src="/image/bg13.png"
-          alt="background"
+          alt=""
           fill
-          className="object-cover w-full h-full"
+          className="object-cover"
+          sizes="100vw"
         />
 
-        <div className="absolute inset-0 px-6 sm:px-10 md:px-16 xl:px-40 pt-10 sm:pt-12 xl:pt-16 font-geist-mono z-10">
-          <div className="flex flex-col gap-8 sm:gap-10 xl:gap-14 text-white">
+        <div className="relative z-10 px-6 sm:px-10 md:px-16 xl:px-40 py-10 sm:py-12 xl:py-16 font-geist-mono text-white">
+          <div className="flex flex-col gap-6 sm:gap-8 xl:gap-10">
             <TypingAnimation className="text-2xl sm:text-3xl xl:text-4xl font-light drop-shadow-md">
               Get In Touch_
             </TypingAnimation>
@@ -23,34 +24,41 @@ export default function Footer() {
             <div className="flex flex-col gap-3 sm:gap-4 xl:gap-5">
               <p className="font-extrabold text-sm sm:text-base xl:text-lg">
                 PHONE:{" "}
-                <Link href="tel:+855969194339" target="_blank">
-                  <span className="font-extralight">+855 969 194 339</span>
+                <Link
+                  href="tel:+855969194339"
+                  className="font-extralight hover:underline"
+                >
+                  +855 969 194 339
                 </Link>
               </p>
               <p className="font-extrabold text-sm sm:text-base xl:text-lg">
                 LINKEDIN:{" "}
-                <Link href="https://www.linkedin.com/in/tongbora/" target="_blank">
-                  <span className="font-extralight">Tong Bora</span>
+                <Link
+                  href="https://www.linkedin.com/in/tongbora/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-extralight hover:underline"
+                >
+                  Tong Bora
                 </Link>
               </p>
-              <p className="font-extrabold text-sm sm:text-base xl:text-lg">
+              <p className="font-extrabold text-sm sm:text-base xl:text-lg break-words">
                 EMAIL:{" "}
-                <Link href="mailto:tongbora.official@gmail.com" target="_blank">
-                  <span className="font-extralight">
-                    tongbora.official@gmail.com
-                  </span>
+                <Link
+                  href="mailto:tongbora.official@gmail.com"
+                  className="font-extralight hover:underline"
+                >
+                  tongbora.official@gmail.com
                 </Link>
               </p>
             </div>
 
-            <div>
-              <p className="text-center text-sm sm:text-base text-gray-300">
-                © 2025 Built with 💻 by Tong Bora. All rights reserved.
-              </p>
-            </div>
+            <p className="text-center text-xs sm:text-sm text-gray-300 pt-4 sm:pt-6">
+              © 2025 Built with 💻 by Tong Bora. All rights reserved.
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
