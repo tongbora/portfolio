@@ -10,6 +10,7 @@ import {
 import Link from "next/link";
 import Projects from "@/components/Project";
 import Education from "@/components/Education";
+import Technologies from "../../components/Technologies";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -104,6 +105,7 @@ export default function Home() {
             real-world projects and grow as a developer.
           </p>
         </div>
+          <Technologies />
         <Projects />
         <Education />
       </div>

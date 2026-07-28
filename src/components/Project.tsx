@@ -22,8 +22,9 @@ export default function Projects() {
 
           <div className="-mt-2 flex flex-col gap-3">
             <Link
-              href="https://app.istad.co/"
-              target="_blank"
+              // href="https://app.istad.co/"
+              href="/"
+              // target="_blank"
               className="text-lg font-bold text-primary"
             >
               ISTAD Insight
@@ -103,8 +104,9 @@ export default function Projects() {
 
           <div className="-mt-2 flex flex-col gap-3">
             <Link
-              href="https://www.exstad.tech/"
-              target="_blank"
+              // href="https://www.exstad.tech/"
+              // target="_blank"
+              href="/"
               className="text-lg font-bold text-primary"
             >
               exSTAD
@@ -130,8 +132,9 @@ export default function Projects() {
 
           <div className="-mt-2 flex flex-col gap-3">
             <Link
-              href="https://fluentflow.oudom.dev/"
-              target="_blank"
+              // href="https://fluentflow.oudom.dev/"
+              // target="_blank"
+              href="/"
               className="text-lg font-bold text-primary"
             >
               Fluent Flow

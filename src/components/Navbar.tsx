@@ -39,6 +39,12 @@ export default function Navbar() {
               About Me
             </Link>
             <Link
+              href="#technologies"
+              className="font-geist-mono hover:opacity-75 transition-opacity"
+            >
+              Technologies
+            </Link>
+            <Link
               href="#projects"
               className="font-geist-mono hover:opacity-75 transition-opacity"
             >
@@ -84,11 +90,18 @@ export default function Navbar() {
         <div className="p-6 pt-20">
           <div className="space-y-6">
             <a
-              href="#about"
+              href="#about-me"
               onClick={closeMenu}
               className="block font-geist-mono font-black text-lg text-black hover:text-gray-600 transition-colors"
             >
               About
+            </a>
+            <a
+              href="#technologies"
+              onClick={closeMenu}
+              className="block font-geist-mono font-black text-lg text-black hover:text-gray-600 transition-colors"
+            >
+              Technologies
             </a>
             <a
               href="#projects"
